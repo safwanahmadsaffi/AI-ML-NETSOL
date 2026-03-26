@@ -8,9 +8,11 @@
 ## 📋 Table of Contents
 
 - [Program Overview](#program-overview)
+- [Repository Contents](#repository-contents)
 - [AI/ML Technical Curriculum](#aiml-technical-curriculum)
 - [Soft Skills & Leadership Modules](#soft-skills--leadership-modules)
 - [Program Highlights](#program-highlights)
+- [Getting Started](#getting-started)
 - [Contact & Enrollment](#contact--enrollment)
 
 ---
@@ -26,6 +28,37 @@ The **NETSOL Institute of AI (NIAI)** offers a rigorous, industry-aligned AI/ML 
 | **Schedule** | 4 days/week (Technical) + 1 day/week (Soft Skills) |
 | **Soft Skills Hours** | 24 hours of corporate readiness training |
 | **Focus Areas** | Machine Learning, Deep Learning, NLP, Cloud AI (Azure/GCP/AWS), MLOps, Generative AI |
+
+---
+
+## Repository Contents
+
+This repository contains hands-on learning materials, notebooks, and assignments organized by topic.
+
+### 📁 Python - Basics
+
+Introductory Python and NumPy materials from Weeks 1–2 of the program.
+
+| File | Description |
+|------|-------------|
+| [`Python_For_Beginners.ipynb`](Python%20-%20Basics/Python_For_Beginners.ipynb) | Introduction to Python — syntax, variables, data types, keywords, comments, and control flow |
+| [`Week1_1_DIY.ipynb`](Python%20-%20Basics/Week1_1_DIY.ipynb) | DIY exercises covering Python basics: numbers, strings, lists, dicts, and functions |
+| [`task_day 3.ipynb`](Python%20-%20Basics/task_day%203.ipynb) | NumPy fundamentals — array creation, 0D/1D/2D/3D arrays, and array operations |
+| [`task_day_03_import-libraires.ipynb`](Python%20-%20Basics/task_day_03_import-libraires.ipynb) | NumPy practice — array dimensions (`ndim`), shape, and data types |
+| [`task_day_04.ipynb`](Python%20-%20Basics/task_day_04.ipynb) | NumPy + PIL image processing — loading images as arrays and array manipulation |
+| [`python_notes.md`](Python%20-%20Basics/python_notes.md) | Quick-reference Python notes |
+| [`cheatsheet of algorithms.jpg`](Python%20-%20Basics/cheatsheet%20of%20algorithms.jpg) | Visual algorithm cheat sheet |
+| [`day1-2-tasks-notes.pdf`](Python%20-%20Basics/day1-2-tasks-notes.pdf) | Day 1–2 task notes and reference material |
+| [`Week 1 Day 4-Math and tasks.pdf`](Python%20-%20Basics/Week%201%20Day%204-Math%20and%20tasks.pdf) | Math foundations and tasks for Week 1, Day 4 |
+| [`Agentic AI (Assignment no 1) .pdf`](<Python%20-%20Basics/Agentic%20AI%20(Assignment%20no%201)%20.pdf>) | Assignment 1 — Introduction to Agentic AI concepts |
+
+### 📁 Exploratory Data Analysis - EDA
+
+Data loading, preprocessing, and exploratory analysis materials.
+
+| File | Description |
+|------|-------------|
+| [`read-write-libraies.ipynb`](<Exploratory%20Data%20Analysis%20-%20EDA/read-write-libraies.ipynb>) | EDA with Pandas — importing datasets (CSV), preprocessing (drop/clean columns), and exploratory analysis |
 
 ---
 
@@ -84,6 +117,31 @@ In addition to technical training, the program includes **24 hours of corporate 
 - ✅ **Soft Skills Training** — Corporate readiness, leadership, and communication coaching
 - ✅ **On-Job Training** — Practical exposure through project and FYP selection in Week 10
 - ✅ **Microsoft Azure Certification Prep** — Azure AI Services covered in Weeks 11–12
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+```bash
+pip install numpy pandas scikit-learn matplotlib pillow jupyter
+```
+
+### Running the Notebooks
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/safwanahmadsaffi/ai-ml-netsol.git
+   cd ai-ml-netsol
+   ```
+
+2. Launch Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+3. Open any notebook from the `Python - Basics/` or `Exploratory Data Analysis - EDA/` folders and run the cells.
 
 ---
 
