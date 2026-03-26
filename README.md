@@ -154,10 +154,11 @@ pip install numpy pandas scikit-learn matplotlib pillow jupyter
 For more information about the program, enrollment, or partnership opportunities, please reach out to:
 
 **NETSOL Institute of AI (NIAI)**
+
+
+- ✨ Maintainer : [Safwan Ahmad](https://www.linkedin.com/in/safwan-ahmad-saffi/) (AI|ML Developer) 
 - 🌐 Website: [www.netsol.com](https://www.netsol.com)
 - 📧 Email: niai@netsol.com
 - 📍 Location: NETSOL Technologies, Lahore, Pakistan
 
 ---
-
-*© NETSOL Institute of AI (NIAI) — All rights reserved.*
