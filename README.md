@@ -46,6 +46,9 @@ Introductory Python and NumPy materials from Weeks 1–2 of the program.
 | [`task_day 3.ipynb`](Python%20-%20Basics/task_day%203.ipynb) | NumPy fundamentals — array creation, 0D/1D/2D/3D arrays, and array operations |
 | [`task_day_03_import-libraires.ipynb`](Python%20-%20Basics/task_day_03_import-libraires.ipynb) | NumPy practice — array dimensions (`ndim`), shape, and data types |
 | [`task_day_04.ipynb`](Python%20-%20Basics/task_day_04.ipynb) | NumPy + PIL image processing — loading images as arrays and array manipulation |
+| [`varaible.ipynb`](Python%20-%20Basics/varaible.ipynb) | Basic Python variables, lists, loops (`enumerate`), and interactive input/output tasks |
+| [`Implementation_DataStructure.ipynb`](Python%20-%20Basics/Implementation_DataStructure.ipynb) | Python data types implementation — numbers, booleans, strings, lists, dicts, and sets with worked examples |
+| [`DataStructures_Worksheet.ipynb`](Python%20-%20Basics/DataStructures_Worksheet.ipynb) | 18-task practice worksheet covering Numbers, Booleans, Strings, Loops, Lists, Tuples, Dictionaries, Sets, NumPy, and Pandas |
 | [`python_notes.md`](Python%20-%20Basics/python_notes.md) | Quick-reference Python notes |
 | [`cheatsheet of algorithms.jpg`](Python%20-%20Basics/cheatsheet%20of%20algorithms.jpg) | Visual algorithm cheat sheet |
 | [`day1-2-tasks-notes.pdf`](Python%20-%20Basics/day1-2-tasks-notes.pdf) | Day 1–2 task notes and reference material |
@@ -59,6 +62,7 @@ Data loading, preprocessing, and exploratory analysis materials.
 | File | Description |
 |------|-------------|
 | [`read-write-libraies.ipynb`](<Exploratory%20Data%20Analysis%20-%20EDA/read-write-libraies.ipynb>) | EDA with Pandas — importing datasets (CSV), preprocessing (drop/clean columns), and exploratory analysis |
+| [`Data_Cleaning_Lab.ipynb`](<Exploratory%20Data%20Analysis%20-%20EDA/Data_Cleaning_Lab.ipynb>) | IBM Skills Network data cleaning lab — handling missing, duplicate, and irrelevant data using Pandas and NumPy |
 
 ---
 
