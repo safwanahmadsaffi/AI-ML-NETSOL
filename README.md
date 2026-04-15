@@ -53,7 +53,7 @@ Introductory Python and NumPy materials from Weeks 1–2 of the program.
 | [`cheatsheet of algorithms.jpg`](Python%20-%20Basics/cheatsheet%20of%20algorithms.jpg) | Visual algorithm cheat sheet |
 | [`day1-2-tasks-notes.pdf`](Python%20-%20Basics/day1-2-tasks-notes.pdf) | Day 1–2 task notes and reference material |
 | [`Week 1 Day 4-Math and tasks.pdf`](Python%20-%20Basics/Week%201%20Day%204-Math%20and%20tasks.pdf) | Math foundations and tasks for Week 1, Day 4 |
-| [`Agentic AI (Assignment no 1) .pdf`](<Python%20-%20Basics/Agentic%20AI%20(Assignment%20no%201)%20.pdf>) | Assignment 1 — Introduction to Agentic AI concepts |
+| [`Agentic AI (Assignment no 1) .pdf`](Python%20-%20Basics/Agentic%20AI%20(Assignment%20no%201)%20.pdf) | Assignment 1 — Introduction to Agentic AI concepts |
 
 ### 📁 Exploratory Data Analysis - EDA
 
@@ -61,8 +61,24 @@ Data loading, preprocessing, and exploratory analysis materials.
 
 | File | Description |
 |------|-------------|
-| [`read-write-libraies.ipynb`](<Exploratory%20Data%20Analysis%20-%20EDA/read-write-libraies.ipynb>) | EDA with Pandas — importing datasets (CSV), preprocessing (drop/clean columns), and exploratory analysis |
-| [`Data_Cleaning_Lab.ipynb`](<Exploratory%20Data%20Analysis%20-%20EDA/Data_Cleaning_Lab.ipynb>) | IBM Skills Network data cleaning lab — handling missing, duplicate, and irrelevant data using Pandas and NumPy |
+| [`read-write-libraies.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/read-write-libraies.ipynb) | EDA with Pandas — importing datasets (CSV), preprocessing (drop/clean columns), and exploratory analysis |
+| [`Data_Cleaning_Lab.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/Data_Cleaning_Lab.ipynb) | IBM Skills Network data cleaning lab — handling missing, duplicate, and irrelevant data using Pandas and NumPy |
+| [`LAB_EDA.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/LAB_EDA.ipynb) | Guided EDA lab covering exploratory workflows and insights extraction |
+| [`EDA_Lab.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/EDA_Lab.ipynb) | Practice notebook for performing end-to-end exploratory analysis |
+| [`Feature_Engineering_Lab.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/Feature_Engineering_Lab.ipynb) | Feature engineering techniques for model-ready datasets |
+| [`01d_DEMO_Feature_Engineering.ipynb`](Exploratory%20Data%20Analysis%20-%20EDA/01d_DEMO_Feature_Engineering.ipynb) | Demonstration of practical feature engineering methods |
+
+### 📁 Machine Learning
+
+Core machine learning labs and notebooks focused on regression and visualization.
+
+| File | Description |
+|------|-------------|
+| [`linear regression.ipynb`](Machine%20Learning/linear%20regression.ipynb) | Introductory linear regression implementation and analysis |
+| [`02a_LAB_Transforming_Target.ipynb`](Machine%20Learning/02a_LAB_Transforming_Target.ipynb) | Target transformation techniques to improve model behavior |
+| [`02b-LAB-Regression-Train-Test-Split-v2.ipynb`](Machine%20Learning/02b-LAB-Regression-Train-Test-Split-v2.ipynb) | Regression workflow using train/test split and evaluation |
+| [`Data_Visualization.ipynb`](Machine%20Learning/Data_Visualization.ipynb) | Foundational data visualization for ML understanding |
+| [`Data_Visualization_Worksheet.ipynb`](Machine%20Learning/Data_Visualization_Worksheet.ipynb) | Visualization practice worksheet for hands-on exercises |
 
 ---
 
@@ -145,7 +161,7 @@ pip install numpy pandas scikit-learn matplotlib pillow jupyter
    jupyter notebook
    ```
 
-3. Open any notebook from the `Python - Basics/` or `Exploratory Data Analysis - EDA/` folders and run the cells.
+3. Open any notebook from the `Python - Basics/`, `Exploratory Data Analysis - EDA/`, or `Machine Learning/` folders and run the cells.
 
 ---
 
@@ -156,7 +172,7 @@ For more information about the program, enrollment, or partnership opportunities
 **NETSOL Institute of AI (NIAI)**
 
 
-- ✨ Maintainer : [Safwan Ahmad](https://www.linkedin.com/in/safwan-ahmad-saffi/) (AI|ML Developer) 
+- ✨ Maintainer: [Safwan Ahmad](https://www.linkedin.com/in/safwan-ahmad-saffi/) (AI|ML Developer)
 - 🌐 Website: [www.netsol.com](https://www.netsol.com)
 - 📧 Email: niai@netsol.com
 - 📍 Location: NETSOL Technologies, Lahore, Pakistan
