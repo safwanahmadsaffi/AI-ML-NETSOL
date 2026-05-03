@@ -77,8 +77,12 @@ Core machine learning labs and notebooks focused on regression and visualization
 | [`linear regression.ipynb`](Machine%20Learning/linear%20regression.ipynb) | Introductory linear regression implementation and analysis |
 | [`02a_LAB_Transforming_Target.ipynb`](Machine%20Learning/02a_LAB_Transforming_Target.ipynb) | Target transformation techniques to improve model behavior |
 | [`02b-LAB-Regression-Train-Test-Split-v2.ipynb`](Machine%20Learning/02b-LAB-Regression-Train-Test-Split-v2.ipynb) | Regression workflow using train/test split and evaluation |
+| [`02c_DEMO_Cross_Validation.ipynb`](Machine%20Learning/02c_DEMO_Cross_Validation.ipynb) | Demonstration of cross-validation strategies for model evaluation |
+| [`02d_DEMO_Regularization.ipynb`](Machine%20Learning/02d_DEMO_Regularization.ipynb) | Demonstration of regularization techniques (Ridge, Lasso) to reduce overfitting |
+| [`03a-LAB-Logistic-Regression-Error-Metrics-v2.ipynb`](Machine%20Learning/03a-LAB-Logistic-Regression-Error-Metrics-v2.ipynb) | Logistic regression lab with classification error metrics and evaluation |
 | [`Data_Visualization.ipynb`](Machine%20Learning/Data_Visualization.ipynb) | Foundational data visualization for ML understanding |
 | [`Data_Visualization_Worksheet.ipynb`](Machine%20Learning/Data_Visualization_Worksheet.ipynb) | Visualization practice worksheet for hands-on exercises |
+| [`Supervised Machine Learning 2 (1).pdf`](Machine%20Learning/Supervised%20Machine%20Learning%202%20%281%29.pdf) | Reference material covering supervised ML concepts from the second module |
 
 ---
 
