@@ -9,6 +9,7 @@
 
 - [Program Overview](#program-overview)
 - [Repository Contents](#repository-contents)
+- [How to Use This Repository](#how-to-use-this-repository)
 - [AI/ML Technical Curriculum](#aiml-technical-curriculum)
 - [Soft Skills & Leadership Modules](#soft-skills--leadership-modules)
 - [Program Highlights](#program-highlights)
@@ -34,6 +35,13 @@ The **NETSOL Institute of AI (NIAI)** offers a rigorous, industry-aligned AI/ML 
 ## Repository Contents
 
 This repository contains hands-on learning materials, notebooks, and assignments organized by topic.
+
+## How to Use This Repository
+
+- Start with **Python - Basics** to build core Python and NumPy skills.
+- Continue to **Exploratory Data Analysis - EDA** for cleaning, preprocessing, and feature engineering.
+- Move to **Machine Learning** for model training, validation, and evaluation practice.
+- Use notebooks in sequence where possible, and complete worksheet/lab files for hands-on reinforcement.
 
 ### 📁 Python - Basics
 
