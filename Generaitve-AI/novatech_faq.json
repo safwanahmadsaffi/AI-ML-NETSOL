@@ -1,0 +1,55 @@
+{
+  "product": "NovaTech AI Platform",
+  "version": "3.2",
+  "last_updated": "2024-03-01",
+  "faqs": [
+    {
+      "id": 1,
+      "category": "Getting Started",
+      "question": "How do I create my first API key?",
+      "answer": "Log into the NovaTech developer portal at portal.novatech.io. Navigate to Settings > API Keys > Create New Key. Give your key a descriptive name, select the required permission scopes, and click Generate. Your key will be shown once \u2014 copy it immediately and store it securely. Keys cannot be retrieved after creation but can be rotated at any time."
+    },
+    {
+      "id": 2,
+      "category": "Getting Started",
+      "question": "What are the rate limits for the LogiSense API?",
+      "answer": "Rate limits depend on your subscription tier. Standard tier allows 100 requests per minute and 10,000 requests per day. Professional tier allows 500 requests per minute and 100,000 requests per day. Enterprise tier has custom limits negotiated in your SLA. Rate limit headers (X-RateLimit-Remaining, X-RateLimit-Reset) are included in every API response."
+    },
+    {
+      "id": 3,
+      "category": "Integration",
+      "question": "How does DocuMind integrate with SAP?",
+      "answer": "DocuMind provides a certified SAP connector available in the SAP App Center. Installation requires SAP BASIS version 7.40 or higher. The connector uses SAP RFC (Remote Function Call) to push extracted document data directly into your SAP modules (MM, FI, SD). Setup typically takes 2-4 hours with a certified SAP administrator. Full documentation is available at docs.novatech.io/integrations/sap."
+    },
+    {
+      "id": 4,
+      "category": "Billing",
+      "question": "How is DocuMind usage billed?",
+      "answer": "DocuMind is billed per page processed. Standard tier: $0.02 per page. Professional tier: $0.012 per page with a 50,000 page monthly minimum. Enterprise tier: custom pricing based on volume. Pages are counted at ingestion \u2014 a 10-page PDF counts as 10 pages regardless of how many times you query the extracted data. Billing occurs monthly and invoices are available in the billing portal."
+    },
+    {
+      "id": 5,
+      "category": "Security",
+      "question": "Where is my data stored and for how long?",
+      "answer": "All customer data is stored in AWS data centers in the region you select during onboarding (US-East, EU-West, or AP-Southeast). Data is retained for 12 months by default. Enterprise customers can configure custom retention policies from 30 days to 7 years. Data deletion requests are processed within 72 hours and you receive a deletion certificate upon completion."
+    },
+    {
+      "id": 6,
+      "category": "Troubleshooting",
+      "question": "My DocuMind extraction accuracy is below 95%. What should I do?",
+      "answer": "Low accuracy is usually caused by poor document quality (scanned images, low DPI), non-standard layouts, or unsupported languages. First, run the document through our quality checker at portal.novatech.io/tools/quality-check. If DPI is below 150, re-scan at 300 DPI or higher. For non-standard layouts, use our Layout Training tool to fine-tune the extraction model on 20-50 sample documents. Contact support if accuracy remains below 95% after these steps."
+    },
+    {
+      "id": 7,
+      "category": "SupplyIQ",
+      "question": "How long does SupplyIQ need to generate accurate forecasts?",
+      "answer": "SupplyIQ requires a minimum of 6 months of historical transaction data to generate baseline forecasts. Forecast accuracy improves significantly with 12-24 months of data. During the first 30 days (the calibration period), the system runs in observation mode \u2014 collecting data and tuning its models to your specific business patterns. You will see forecast confidence scores increase week over week during calibration."
+    },
+    {
+      "id": 8,
+      "category": "Troubleshooting",
+      "question": "The LogiSense API is returning 429 errors. How do I fix this?",
+      "answer": "HTTP 429 means you have exceeded your rate limit. Implement exponential backoff in your client: wait 1 second after the first 429, 2 seconds after the second, 4 seconds after the third, etc. Check the X-RateLimit-Reset header to know exactly when your limit resets. If you are consistently hitting limits, consider upgrading your tier or implementing request queuing. Contact sales@novatech.io to discuss enterprise limits."
+    }
+  ]
+}

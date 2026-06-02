@@ -1,0 +1,13 @@
+employee_id,name,department,role,location,start_date,salary_band,manager
+E001,Fatima Al-Rashid,Executive,CEO,Karachi,2021-01-15,L9,—
+E002,Bilal Mahmood,Engineering,CTO,Karachi,2021-01-15,L9,—
+E003,Aisha Khan,Engineering,ML Engineer,Karachi,2021-06-01,L5,E002
+E004,Omar Siddiqui,Product,Product Manager,Dubai,2022-03-15,L6,E001
+E005,Priya Sharma,Engineering,Senior Backend Engineer,London,2022-07-01,L6,E002
+E006,Ahmed Raza,Sales,Enterprise Account Executive,Dubai,2022-09-01,L5,E001
+E007,Sara Liu,Engineering,Data Engineer,Karachi,2023-01-10,L4,E002
+E008,James O'Brien,Engineering,DevOps Engineer,London,2023-03-01,L5,E002
+E009,Nadia Hussain,Marketing,Head of Marketing,Karachi,2023-05-15,L7,E001
+E010,Tariq Mehmood,Engineering,ML Engineer,Karachi,2023-08-01,L4,E003
+E011,Elena Kowalski,Engineering,Frontend Engineer,London,2023-10-01,L4,E005
+E012,Hassan Sheikh,Customer Success,Customer Success Manager,Dubai,2024-01-15,L5,E006
