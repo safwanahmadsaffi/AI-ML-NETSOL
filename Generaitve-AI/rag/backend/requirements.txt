@@ -1,0 +1,22 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2,<3.0
+python-dotenv>=1.0,<2.0
+
+# --- V2: RAG stack (pinned to avoid dependency conflicts) ---
+# LangChain 0.2.x family
+langchain==0.2.17
+langchain-community==0.2.19
+
+# Gemini integration (pick a version that supports langchain-core 0.2.x)
+langchain-google-genai==1.0.6
+google-generativeai==0.5.4
+
+# Vector store + embeddings
+faiss-cpu>=1.8,<2.0
+sentence-transformers>=2.7,<4.0
+
+# Document loaders
+pymupdf>=1.24,<2.0
+docx2txt>=0.8,<1.0
