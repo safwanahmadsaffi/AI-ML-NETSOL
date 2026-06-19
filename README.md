@@ -40,8 +40,9 @@ This repository contains hands-on learning materials, notebooks, and assignments
 
 - Start with **Python - Basics** to build core Python and NumPy skills.
 - Continue to **Exploratory Data Analysis - EDA** for cleaning, preprocessing, and feature engineering.
-- Move to **Machine Learning** for model training, validation, and evaluation practice.
-- Use notebooks in sequence where possible, and complete worksheet/lab files for hands-on reinforcement.
+- Move to **Machine Learning** for classification, regression, and visualization workflows.
+- Explore **Generative AI** to study prompt engineering, RAG components, and build a history-aware chatbot.
+- Dive into **RagBot** to see a full agentic RAG assistant using LangGraph, Gradio, and Groq Llama 3.3.
 
 ### 📁 Python - Basics
 
@@ -78,7 +79,7 @@ Data loading, preprocessing, and exploratory analysis materials.
 
 ### 📁 Machine Learning
 
-Core machine learning labs and notebooks focused on regression and visualization.
+Core machine learning labs and notebooks focused on supervised algorithms, model evaluation, and ensembles.
 
 | File | Description |
 |------|-------------|
@@ -88,9 +89,45 @@ Core machine learning labs and notebooks focused on regression and visualization
 | [`02c_DEMO_Cross_Validation.ipynb`](Machine%20Learning/02c_DEMO_Cross_Validation.ipynb) | Demonstration of cross-validation strategies for model evaluation |
 | [`02d_DEMO_Regularization.ipynb`](Machine%20Learning/02d_DEMO_Regularization.ipynb) | Demonstration of regularization techniques (Ridge, Lasso) to reduce overfitting |
 | [`03a-LAB-Logistic-Regression-Error-Metrics-v2.ipynb`](Machine%20Learning/03a-LAB-Logistic-Regression-Error-Metrics-v2.ipynb) | Logistic regression lab with classification error metrics and evaluation |
+| [`03b-LAB-KNN-v2.ipynb`](Machine%20Learning/03b-LAB-KNN-v2.ipynb) | K-Nearest Neighbors (KNN) classification lab and hyperparameter tuning |
+| [`03c-DEMO-SVM-v2.ipynb`](Machine%20Learning/03c-DEMO-SVM-v2.ipynb) | Support Vector Machine (SVM) demonstration and kernel comparison |
+| [`03d-LAB-Decision-Trees-v2.ipynb`](Machine%20Learning/03d-LAB-Decision-Trees-v2.ipynb) | Decision Trees classification lab and feature importance analysis |
+| [`04c_LAB_Clustering_Methods.ipynb`](Machine%20Learning/04c_LAB_Clustering_Methods.ipynb) | Unsupervised clustering methods (K-Means, DBSCAN) lab |
+| [`Ada-Boost-v2.ipynb`](Machine%20Learning/Ada-Boost-v2.ipynb) | Boosting ensemble method notebook with AdaBoost |
+| [`Bagging-v2.ipynb`](Machine%20Learning/Bagging-v2.ipynb) | Bagging ensemble method notebook with Random Forest |
+| [`Compartive Chart(LR,KNN,SVM).docx`](Machine%20Learning/Compartive%20Chart(LR,KNN,SVM).docx) | Word document summarizing differences and metrics for LR, KNN, and SVM |
 | [`Data_Visualization.ipynb`](Machine%20Learning/Data_Visualization.ipynb) | Foundational data visualization for ML understanding |
 | [`Data_Visualization_Worksheet.ipynb`](Machine%20Learning/Data_Visualization_Worksheet.ipynb) | Visualization practice worksheet for hands-on exercises |
-| [`Supervised Machine Learning 2 (1).pdf`](Machine%20Learning/Supervised%20Machine%20Learning%202%20%281%29.pdf) | Reference material covering supervised ML concepts from the second module |
+| [`KNN, Decision Tree, SVM, and Logistic Regression.ipynb`](Machine%20Learning/KNN,%20Decision%20Tree,%20SVM,%20and%20Logistic%20Regression.ipynb) | Comparative notebook exploring multiple classification algorithms |
+| [`lab-jupyter-decisiontree-v2.ipynb`](Machine%20Learning/lab-jupyter-decisiontree-v2.ipynb) | Decision Tree classifier lab exercises |
+| [`lab-jupyter-knn-v2.ipynb`](Machine%20Learning/lab-jupyter-knn-v2.ipynb) | KNN classifier lab exercises |
+| [`lab-jupyter-logistic-regression-v2.ipynb`](Machine%20Learning/lab-jupyter-logistic-regression-v2.ipynb) | Logistic Regression classifier lab exercises |
+| [`lab-jupyter-svm-v2.ipynb`](Machine%20Learning/lab-jupyter-svm-v2.ipynb) | Support Vector Machine classifier lab exercises |
+| [`Supervised Machine Learning 2 (1).pdf`](Machine%20Learning/Supervised%20Machine%20Learning%202%20%281%29.pdf) | Reference material covering supervised ML concepts from Module 2 |
+
+### 📁 Generaitve-AI
+
+Study notebooks and full-stack implementations of Generative AI concepts and RAG.
+
+| File/Folder | Description |
+|-------------|-------------|
+| [`day1_genai_bootcamp.ipynb`](Generaitve-AI/day1_genai_bootcamp.ipynb) | Day 1 bootcamp workbook introducing GenAI, LLMs, and prompting |
+| [`day1_lab_TASKS.ipynb`](Generaitve-AI/day1_lab_TASKS.ipynb) | Lab tasks testing core prompting capabilities |
+| [`advanced_tasks.ipynb`](Generaitve-AI/advanced_tasks.ipynb) | Advanced prompt engineering challenges (chaining, self-consistency, adversarial checks) |
+| [`rag_ingestion_pipeline.ipynb`](Generaitve-AI/rag_ingestion_pipeline.ipynb) | Jupyter notebook demonstrating document loading, chunking, and FAISS indexing |
+| [`rag_retrieval_pipeline.ipynb`](Generaitve-AI/rag_retrieval_pipeline.ipynb) | Jupyter notebook demonstrating semantic search and response generation |
+| [`rag/`](Generaitve-AI/rag/) | Full-stack FastAPI + LangChain + FAISS + Gemini chatbot with clean HTML/JS frontend |
+
+### 📁 RagBot
+
+Universal RAG Assistant using agentic workflows.
+
+| File | Description |
+|------|-------------|
+| [`app.py`](RagBot/app.py) | Dual-source RAG chatbot built with LangGraph agent loop, FAISS, and Gradio |
+| [`architecture.mermaid.md`](RagBot/architecture.mermaid.md) | Agent and data processing workflow diagrams |
+| [`netsol_technologies_profile.pdf`](RagBot/netsol_technologies_profile.pdf) | Scraped company documents used for corporate website grounding |
+| [`requirements.txt`](RagBot/requirements.txt) | Dependency checklist for running the RagBot application |
 
 ---
 
